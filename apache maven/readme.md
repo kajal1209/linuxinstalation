@@ -16,9 +16,9 @@
 
 * first lets try to install latest version of maven by wget command 
 
----
-wget https://dlcdn.apache.org/maven/maven-3/3.9.8/binaries/apache-maven-3.9.8-bin.tar.gz
----
+
+"wget https://dlcdn.apache.org/maven/maven-3/3.9.8/binaries/apache-maven-3.9.8-bin.tar.gz"
+
 
 * Now lets extract our downloaded file by command
 
