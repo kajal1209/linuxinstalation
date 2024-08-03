@@ -22,18 +22,18 @@
 
 * Now lets extract our downloaded file by command
 
----
+
  sudo tar -xvzf apache-maven-3.9.8-bin.tar.gz -C /opt
----
+
 
 ### set up of environment variable
 
 * now lets open the ".bashrc" file in our home directory to set 
 up Maven`s environment variables by using command
 
----
+
 nano ~/.bashrc
----
+
 at the end of the file add the folloing line 
        export M2_HOME=/opt/maven
        export PATH=$M2_HOME/bin:$PATH
@@ -42,14 +42,14 @@ save and close the file.
 
 * now lets apply the changes by command
 
----
+
 source ~/.bashrc
----
+
 
 * alt last lets verify the installation by using command 
----
+
 mvn -version
----
+
 
 
 
